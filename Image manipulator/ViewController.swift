@@ -10,6 +10,7 @@
     import CoreImage
 
     class ViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate, UICollectionViewDelegate, UIScrollViewDelegate {
+        
         var redRGBA = RGBAImage?()
         var greenRGBA = RGBAImage?()
         var blueRGBA = RGBAImage?()
